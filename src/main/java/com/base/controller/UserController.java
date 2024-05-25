@@ -36,17 +36,17 @@ public class UserController {
 		return new ResponseEntity<>(users, HttpStatus.OK);
 	}
 
-	@GetMapping("/user/{id}")
+	@GetMapping("/getby/{id}")
 	public User getUserById(@PathVariable("id") Long id) {
 		return userService.getById(id);
 	}
 
 
 	@DeleteMapping("/del/{id}")
-	public void deleteUser(@PathVariable("id") Long id) {
+	public String deleteUser(@PathVariable("id") Long id) {
 		userService.removeUser(id);
-		System.out.println("data deleted successfully.......");
-		//return "data deleted successfully";
+		//System.out.println("data deleted successfully.......");
+		return "data deleted successfully";
 	}
 
 	@PutMapping("/put/{id}")

@@ -17,10 +17,9 @@ public class UserServiceImpl implements UserService {
 	private UserRepository userRepository;
 
 	@Override
-	public String message(String message) {
-		// TODO Auto-generated method stub...
-		message="Hi .....";
-		return message;
+	public String message(String msg) {
+		msg="Hi .....goodd ---check health by other way by using UserServiceIMP";
+		return msg;
 	}
 
 	@Override

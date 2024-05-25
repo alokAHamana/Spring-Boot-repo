@@ -14,7 +14,7 @@ public interface UserService {
 	 * List<User> getAllUsers();
 	 */
 
-	public String message(String message);
+	public String message(String msg);
 
 	public User create(User user);
 
