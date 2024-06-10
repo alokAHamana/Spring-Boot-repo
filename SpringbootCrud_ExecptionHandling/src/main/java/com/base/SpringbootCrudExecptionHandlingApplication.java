@@ -8,6 +8,9 @@ public class SpringbootCrudExecptionHandlingApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootCrudExecptionHandlingApplication.class, args);
+	
+	
+	System.out.println("Global exception");
 	}
 
 }
