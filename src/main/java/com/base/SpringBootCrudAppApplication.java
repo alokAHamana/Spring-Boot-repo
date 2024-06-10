@@ -10,7 +10,7 @@ public class SpringBootCrudAppApplication {
 		SpringApplication.run(SpringBootCrudAppApplication.class, args);
 	
 	
-	System.out.println("main class boot");
+	System.out.println("main class boot..   Exception Handling..................");
 	}
 
 	
