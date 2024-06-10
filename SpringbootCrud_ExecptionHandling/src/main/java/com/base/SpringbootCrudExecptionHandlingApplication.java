@@ -10,7 +10,7 @@ public class SpringbootCrudExecptionHandlingApplication {
 		SpringApplication.run(SpringbootCrudExecptionHandlingApplication.class, args);
 	
 	
-	System.out.println("Global exception");
+	System.out.println("Global exception.....................");
 	}
 
 }
