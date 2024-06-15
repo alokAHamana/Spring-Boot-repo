@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Check {
 	
 		/*@Autowired
-		private UserService userService;
+		private UserService   userService;
 */
 		@GetMapping("/msg")
 		public String message() {
